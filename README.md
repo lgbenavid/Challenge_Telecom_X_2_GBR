@@ -116,4 +116,11 @@ model.predict(X_test)
 
 Contacto: Lgbenavid@gmail.com
 
+---
+
+### 🔍 Notas Adicionales
+- Los gráficos se generan automáticamente al ejecutar el cuaderno.  
+- Los datos originales deben ubicarse en `datos/raw/` antes de ejecutar el preprocesamiento.  
+- Para entornos locales, se recomienda Python 3.8+.
+
 
