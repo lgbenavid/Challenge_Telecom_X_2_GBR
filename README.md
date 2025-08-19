@@ -96,4 +96,24 @@ model = joblib.load('modelos/random_forest.pkl')
 model.predict(X_test)
 ```
 
+## 📈 Resultados Destacados
+
+| Modelo               | Recall (Churn) | Precisión (Churn) | F1-Score (Churn) | AUC-ROC | Variables Clave                           |
+|----------------------|----------------|-------------------|------------------|---------|-------------------------------------------|
+| Random Forest        | 65%            | 76%               | 70%              | 0.90    | `tenure`, `MonthlyCharges`                |
+| Regresión Logística  | 54%            | 67%               | 60%              | 0.83    | `Contract_Month-to-month`, `TotalCharges` |
+| KNN (k=5)            | 62%            | 72%               | 67%              | 0.85    | `tenure`, `Contract_One year`             |
+
+---
+
+## 🤝 Contribuciones
+
+¿Quieres mejorar el proyecto?
+
+    Reporta issues o envía un PR con mejoras.
+
+    Sugiere nuevas variables para incluir en el análisis.
+
+Contacto: Lgbenavid@gmail.com
+
 
