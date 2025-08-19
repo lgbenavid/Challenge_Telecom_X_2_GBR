@@ -76,8 +76,24 @@ pip install pandas scikit-learn imbalanced-learn matplotlib seaborn
 
 ## Pasos
 
-Cargar datos procesados:
+1. Cargar datos procesados:
 
 ```python
 df = pd.read_csv('datos/processed/datos_balanceados.csv')
 ```
+
+2. Ejecutar el cuaderno:
+
+   Abrir notebooks/telecom_churn_analysis.ipynb en Google Colab o Jupyter.
+
+   Ejecutar celdas en orden (incluye comentarios explicativos).
+
+Opcional: Usar Modelos Pre-entrenados
+
+```python
+import joblib
+model = joblib.load('modelos/random_forest.pkl')
+model.predict(X_test)
+```
+
+
